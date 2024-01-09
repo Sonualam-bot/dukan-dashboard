@@ -1,5 +1,5 @@
 import logo from "../assets/logo.png";
-import arrowDown from "../assets/arrowdown.svg";
+import sidebarArrow from "../assets/sidebarArrow.svg";
 import Pages from "../pages/Pages";
 
 function SidebarTop() {
@@ -20,7 +20,7 @@ function SidebarTop() {
         </div>
         <div>
           <img
-            src={arrowDown}
+            src={sidebarArrow}
             alt="/arrow"
             className="w-[20px] h-[20px] flex-shrink-0 "
           />

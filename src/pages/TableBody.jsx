@@ -1,3 +1,7 @@
+import Pagination from "./Pagination";
+import arrowdown from "../assets/arrowdown.svg";
+import transaction from "../assets/transaction.svg";
+
 function TableBody() {
   const tableData = [
     {
@@ -28,7 +32,7 @@ function TableBody() {
   };
 
   return (
-    <div className="flex flex-col">
+    <div className="flex flex-col gap-6 ">
       <div className="overflow-x-auto">
         <div className="inline-block min-w-full py-2">
           <div className="overflow-hidden">
@@ -38,14 +42,26 @@ function TableBody() {
                   <th scope="col" className="pl-6 pr-9 py-4">
                     Order ID
                   </th>
-                  <th scope="col" className="px-6 py-4">
+                  <th
+                    scope="col"
+                    className="flex items-center justify-start gap-2   px-6 py-4"
+                  >
                     Order date
+                    <img src={arrowdown} alt="/arrow" className="" />
                   </th>
                   <th scope="col" className="px-6 py-4 text-right">
                     Order Amount
                   </th>
-                  <th scope="col" className="px-6 py-4 text-right">
+                  <th
+                    scope="col"
+                    className=" flex items-center justify-end gap-2   px-6 py-4 "
+                  >
                     Transaction fees
+                    <img
+                      src={transaction}
+                      alt="/transaction"
+                      className="w-[14px] h-[14px] "
+                    />
                   </th>
                 </tr>
               </thead>
@@ -53,6 +69,9 @@ function TableBody() {
             </table>
           </div>
         </div>
+      </div>
+      <div>
+        <Pagination />
       </div>
     </div>
   );
