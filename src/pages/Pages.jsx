@@ -18,7 +18,7 @@ function Pages() {
   const location = useLocation();
   return (
     <div className="flex flex-col items-start gap-1 flex-1 ">
-      <Li url="/home" text="Home" Icon={home} location={location} />
+      <Li url="/" text="Home" Icon={home} location={location} />
       <Li url="/orders" text="Orders" Icon={orders} location={location} />
       <Li url="/products" text="Products" Icon={products} location={location} />
       <Li url="/delivery" text="Delivery" Icon={delivery} location={location} />
