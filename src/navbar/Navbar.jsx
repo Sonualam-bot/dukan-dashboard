@@ -6,7 +6,7 @@ import menuIcon from "../assets/menu.svg";
 
 function Navbar() {
   return (
-    <div className="flex  w-full px-8 py-3 gap-4 border-b border-[#D9D9D9]  ">
+    <div className="flex  w-full px-8 py-3 gap-4 border-b border-[#D9D9D9] bg-[#FFF]  ">
       <div className="flex items-center gap-4 flex-1 ">
         <div>
           <p className=" text-[#1A181E] font-Inter text-[15px] font-normal leading-[22px] ">

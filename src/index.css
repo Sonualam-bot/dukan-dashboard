@@ -7,3 +7,31 @@
   line-height: 1.5;
   font-weight: 400;
 }
+
+
+*{
+  scroll-behavior: smooth;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 7px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f2f2f6;
+  border-radius: 5px;
+  
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #c1c1d0;
+  border-radius: 5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #a6b2ca;
+}
