@@ -3,11 +3,9 @@ import Home from "./pages/Home";
 
 function AllRoutes() {
   return (
-    <div>
-      <Routes>
-        <Route path="/home" element={<Home />} />
-      </Routes>
-    </div>
+    <Routes>
+      <Route path="/home" element={<Home />} />
+    </Routes>
   );
 }
 

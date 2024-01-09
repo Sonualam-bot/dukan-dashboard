@@ -1,5 +1,13 @@
+import Navbar from "../navbar/Navbar";
+import Dashboard from "./Dashboard";
+
 function Home() {
-  return <div>Home</div>;
+  return (
+    <div className="">
+      <Navbar />
+      <Dashboard />
+    </div>
+  );
 }
 
 export default Home;

@@ -5,10 +5,10 @@ import Sidebar from "./sidebar/Sidebar";
 function App() {
   return (
     <div className="w-full bg-[#FAFAFA] flex items-start  ">
-      <div className="inline-flex  flex-col items-start shrink-0 ">
+      <div className="flex  flex-col items-start shrink-0 ">
         <Sidebar />
       </div>
-      <div>
+      <div className="flex-1 ">
         <AllRoutes />
       </div>
     </div>
